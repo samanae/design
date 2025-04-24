@@ -1,0 +1,21 @@
+nav, a {
+    font-family: poppins;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 1rem;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgba(96, 133, 255, 0.137);
+    border-radius: 1rem;
+}
