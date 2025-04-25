@@ -1,5 +1,25 @@
 .navigation {
     position: fixed;
-    right: 10vw;
-    top: 45vh;
+    right: 10dvw;
+    top: 45dvh;
 }
+
+.scroll-container {
+    height: 100dvh; /* Make it the full viewport height */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory; /* Apply to the scroll container */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+  
+  
+.snap {
+    height: 100dvh; /* Ensure each section fills the viewport */
+    scroll-snap-align: start; /* Define where each snap point aligns */
+}
+
+ 
