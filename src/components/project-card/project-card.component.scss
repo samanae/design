@@ -1,0 +1,26 @@
+.project-title-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    gap: 1rem; // Or stack vertically with `flex-direction: column`
+    margin-bottom: 1.5rem;
+  
+    li {
+      cursor: pointer;
+      text-decoration: none;
+      opacity: 0.5;
+      transition: opacity 0.3s ease, font-weight 0.3s ease;
+      
+      &.active {
+        opacity: 1;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+  
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
