@@ -3,16 +3,18 @@
       <a [href]="projectCollection[currentIndex].link" target="_blank">
         <img class="project-img" [src]="projectCollection[currentIndex].imgUrl" alt="{{ projectCollection[currentIndex].title }}">
     </a>
-        <a [href]="projectCollection[currentIndex].link" target="_blank">
-          <h2 class="title">{{ projectCollection[currentIndex].title }}</h2>
-        </a>
-        <p class="description">{{ projectCollection[currentIndex].description }}</p>
-  </div>
-  <div class="information">
-    <div class="tags">
-      <span *ngFor="let discipline of projectCollection[currentIndex].disciplines">{{ discipline }}</span>
+    <div class="left-container">
+      <a [href]="projectCollection[currentIndex].link" target="_blank">
+        <h2 class="title">{{ projectCollection[currentIndex].title }}</h2>
+      </a>
+      <p class="description">{{ projectCollection[currentIndex].description }}</p>
     </div>
-      <p>{{ projectCollection[currentIndex].date }}</p>
-      <a [href]="projectCollection[currentIndex].link" target="_blank" class="project-link">View Project</a>
-    </div> 
+    <div class="information">
+      <div class="tags">
+        <span *ngFor="let discipline of projectCollection[currentIndex].disciplines">{{ discipline }}</span>
+      </div>
+        <p>{{ projectCollection[currentIndex].date }}</p>
+        <a [href]="projectCollection[currentIndex].link" target="_blank" class="project-link">View Project</a>
+      </div> 
+    </div>
   </div>

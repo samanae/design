@@ -2,14 +2,13 @@
 
 .project-card {
     position: relative;
-    width: 60dvw;
-    height: 70dvh;
-    gap: 3dvw;
+    bottom: 0;
+    width: 58dvw;
+    height: 60dvh;
 }
 .title {
-    margin: 3rem 0 3rem 0;
-    font-size: 2.5rem;
-    width: 25dvw;
+    margin: 0;
+    font-size: 2rem;
     color: white;
 }
 
@@ -23,24 +22,19 @@ a {
 img {
     position: absolute;
     z-index: -2;
-    top: 5dvh;
+    top: 5rem;
     right: 0;
-    width: 30dvw;
-    height: 60dvh;
-    object-fit: cover;
+    width: 25dvw;
+    height: auto;
+    object-fit: contain;
     border-radius: 0.3rem;
     mix-blend-mode: plus-lighter;
-    box-shadow: 18px 17px 0px 5px #5A42FF; 
+    //box-shadow: 15px 15px 0px 1px #5A42FF; 
     opacity: 0.7;
 }
 
 .description {
-    width: 25dvw;
-}
-
-.information {
-    position: relative;
-    bottom: 15dvh;
+    width: 30dvw;
 }
 
 .tags{
