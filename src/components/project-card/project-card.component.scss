@@ -1,26 +1,60 @@
-.project-title-list {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
+@import '../../assets/fonts.scss';
+
+.project-card {
+    position: relative;
+    width:60dvw;
+    height: 70dvh;
+    gap: 3dvw;
+}
+.title {
+    margin: 1rem 0 0 0;
+    font-size: 3rem;
+    width: 25dvw;
+}
+
+img {
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    width: 30dvw;
+    height: 70dvh;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    mix-blend-mode: plus-lighter;
+    opacity: 0.7;
+}
+
+.description {
+    width: 25dvw;
+}
+
+.information {
+    position: relative;
+    bottom: 15dvh;
+}
+
+.tags{
+    //display: inline-block;
+    margin-top: 1rem;
+    width: 25dvw;
+}
+
+span {
+    padding: 0.2rem 1rem;
+    background: rgba(4, 113, 255, 0.438);
+    border-radius: 2rem;
+    margin-right: 0.3rem;
+    line-height: 2rem;
+    word-break: break-all;
+}
+
+.project-link {
+    padding: 0 0 0.3rem 0;
     text-decoration: none;
-    padding: 0;
-    gap: 1rem; // Or stack vertically with `flex-direction: column`
-    margin-bottom: 1.5rem;
-  
-    li {
-      cursor: pointer;
-      text-decoration: none;
-      opacity: 0.5;
-      transition: opacity 0.3s ease, font-weight 0.3s ease;
-      
-      &.active {
-        opacity: 1;
-        font-weight: bold;
-        text-decoration: underline;
-      }
-  
-      &:hover {
-        opacity: 0.8;
-      }
-    }
-  }
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.project-link:visited {
+    color: white;
+}

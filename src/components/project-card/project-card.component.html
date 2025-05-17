@@ -1,16 +1,16 @@
 <div class="project-wrapper" *ngIf="projectCollection.length > 0">
-
     <div class="project-card">
       <a [href]="projectCollection[currentIndex].link" target="_blank">
-        <img [src]="projectCollection[currentIndex].imgUrl" alt="{{ projectCollection[currentIndex].title }}">
+        <img class="project-img" [src]="projectCollection[currentIndex].imgUrl" alt="{{ projectCollection[currentIndex].title }}">
     </a>
-        <h2>{{ projectCollection[currentIndex].title }}</h2>
-      <p>{{ projectCollection[currentIndex].date }}</p>
-      <p>{{ projectCollection[currentIndex].description }}</p>
-      
-      <ul>
-        <li *ngFor="let discipline of projectCollection[currentIndex].disciplines">{{ discipline }}</li>
-      </ul>
-  
-      <a [href]="projectCollection[currentIndex].link" target="_blank">View Project</a>
+        <h2 class="title">{{ projectCollection[currentIndex].title }}</h2>
+        <p class="description">{{ projectCollection[currentIndex].description }}</p>
+  </div>
+  <div class="information">
+    <div class="tags">
+      <span *ngFor="let discipline of projectCollection[currentIndex].disciplines">{{ discipline }}</span>
     </div>
+      <p>{{ projectCollection[currentIndex].date }}</p>
+      <a [href]="projectCollection[currentIndex].link" target="_blank" class="project-link">View Project</a>
+    </div> 
+  </div>

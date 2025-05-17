@@ -31,7 +31,7 @@ export class P5AnimationComponent implements OnInit, OnDestroy {
         y = sketch.height / 2;
 
         color1 = sketch.color(11, 19, 50);
-        color2 = sketch.color(11, 31, 111, 99.6);
+        color2 = sketch.color(10, 64, 243, 99.6);
       };
 
       sketch.draw = () => {
