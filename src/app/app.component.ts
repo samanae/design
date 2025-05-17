@@ -6,6 +6,7 @@ import { HomepageComponent } from '../sites/homepage/homepage.component';
 import { ProjectsComponent } from '../sites/projects/projects.component';
 import { CommonModule } from '@angular/common';
 import { ProjectCardComponent } from '../components/project-card/project-card.component';
+import { AboutComponent } from '../sites/about/about.component';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { ProjectCardComponent } from '../components/project-card/project-card.co
     HomepageComponent, 
     ProjectsComponent, 
     CommonModule,
-    ProjectCardComponent],
+    ProjectCardComponent,
+    AboutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

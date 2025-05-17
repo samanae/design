@@ -2,25 +2,35 @@
 
 .project-card {
     position: relative;
-    width:60dvw;
+    width: 60dvw;
     height: 70dvh;
     gap: 3dvw;
 }
 .title {
-    margin: 1rem 0 0 0;
-    font-size: 3rem;
+    margin: 3rem 0 3rem 0;
+    font-size: 2.5rem;
     width: 25dvw;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    a:visited {
+        color: white;
+    }
 }
 
 img {
     position: absolute;
     z-index: -2;
+    top: 5dvh;
     right: 0;
     width: 30dvw;
-    height: 70dvh;
+    height: 60dvh;
     object-fit: cover;
     border-radius: 0.3rem;
     mix-blend-mode: plus-lighter;
+    box-shadow: 18px 17px 0px 5px #5A42FF; 
     opacity: 0.7;
 }
 
@@ -34,14 +44,13 @@ img {
 }
 
 .tags{
-    //display: inline-block;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     width: 25dvw;
 }
 
 span {
     padding: 0.2rem 1rem;
-    background: rgba(4, 113, 255, 0.438);
+    background: #5A42FF;
     border-radius: 2rem;
     margin-right: 0.3rem;
     line-height: 2rem;

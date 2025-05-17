@@ -3,7 +3,9 @@
       <a [href]="projectCollection[currentIndex].link" target="_blank">
         <img class="project-img" [src]="projectCollection[currentIndex].imgUrl" alt="{{ projectCollection[currentIndex].title }}">
     </a>
-        <h2 class="title">{{ projectCollection[currentIndex].title }}</h2>
+        <a [href]="projectCollection[currentIndex].link" target="_blank">
+          <h2 class="title">{{ projectCollection[currentIndex].title }}</h2>
+        </a>
         <p class="description">{{ projectCollection[currentIndex].description }}</p>
   </div>
   <div class="information">
