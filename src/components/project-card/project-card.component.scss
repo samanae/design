@@ -39,7 +39,8 @@ img {
 
 .tags{
     margin-top: 1.3rem;
-    width: 25dvw;
+    min-width: 25dvw;
+    max-width: 32dvw;
 }
 
 span {
