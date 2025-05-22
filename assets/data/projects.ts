@@ -9,6 +9,14 @@ export interface ProjectsType {
 
 export const PROJECTS = [
     {
+    title: 'hylane Website',
+    date: '08/2024',
+    description: 'Developed the Website for hylane GmbH. In cooperation with the creative agency echoecho, I have established a design that suits hylanes Brand Identity and unravelled the true needs and wants of the company in alignment with their goals. Here is the finished outcome.',
+    disciplines: ['Web Development', 'Marketing', 'Angular', 'JavaScript'],
+    link: 'https://www.hylane.de',
+    imgUrl: 'assets/images/hylane-website.png',
+    },
+    {
     title: 'Heart disease in Germany',
     date: '12/2020',
     description: 'An interactive infographic on heart disease, designed to communicate complex health data in an accessible and engaging format. The design process involved rigorous data sourcing, including leveraging open data portals, and was informed by direct engagement with the German Heart Foundation (Deutsche Herzstiftung) to align with its goals of spreading awareness in the right tone. The technical execution involved developing proficiency in Python for data processing and visualization, coupled with front-end web development using HTML, CSS, and strategic SVG integration for design and scalability. The resulting "artery-mimicking" design delivers a unique visual narrative.',
