@@ -22,4 +22,24 @@
     scroll-snap-align: start; /* Define where each snap point aligns */
 }
 
- 
+ @media only screen and (max-width: 700px) {
+.navigation {
+    position: fixed;
+    right: 5dvw;
+    top: 70dvh;
+}
+
+.scroll-container {
+    height: 100dvh; /* Make it the full viewport height */
+    overflow-y: scroll;
+    scroll-snap-type: none; /* Apply to the scroll container */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.snap {
+    height: 100dvh; /* Ensure each section fills the viewport */
+    scroll-snap-align: start; /* Define where each snap point aligns */
+    margin-bottom: 5dvh;
+}
+
+ }

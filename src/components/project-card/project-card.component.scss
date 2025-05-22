@@ -61,3 +61,41 @@ span {
 .project-link:visited {
     color: white;
 }
+
+ @media only screen and (max-width: 700px) {
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    margin: -10dvh 0 10dvh 0;
+    display: flex;
+    position: relative;
+    right: 0;
+    width: 60dvw;
+}
+
+.description {
+    width: 70dvw;
+}
+.project-card {
+    position: relative;
+    bottom: 0;
+    width: 70dvw;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5dvw;
+}
+.tags{
+    margin-top: 0;
+    width: unset;
+    max-width: 70dvw;
+    word-break: keep-all;
+}
+.project-link {
+    padding: 0 0 0.1rem 0;
+    text-align: right;
+}
+ }
