@@ -40,7 +40,7 @@ export const PROJECTS = [
     imgUrl: 'assets/images/epm.png',
     },
     {
-    title: 'NUCO',
+    title: 'NUCO (WIP)',
     date: '2024 – today',
     description: 'A casual mobile and web-friendly number puzzle game. Designed and developed for a university course. The production is maintained outside of the projects lifespan due to enjoyment of creating games with web-frameworks. Designed by Samia Rachid.',
     disciplines: ['Game Design', 'App Design', 'App Development', 'Angular'],
