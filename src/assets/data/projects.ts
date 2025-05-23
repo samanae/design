@@ -29,7 +29,6 @@ export const PROJECTS = [
     date: '01/2021',
     description: 'With the rise in screen-based work—accelerated by the COVID-19 pandemic and increasing digitalization—eye strain and vision-related issues have become widespread. This project explores the growing prevalence of Computer Vision Syndrome (CVS), its impact on productivity, and the misconception that glasses are a long-term solution. The goal is to raise awareness about effective prevention and treatment strategies that support long-term eye health, especially in the context of modern digital work environments. I developed this kit that contains excersizes to relieve eyes from their strain that is executed during work.',
     disciplines: ['Product Design', 'Brand Design', 'Manufacturing', 'UX Research'],
-    link: '',
     imgUrl: 'assets/images/product-design.png',
     },
     {

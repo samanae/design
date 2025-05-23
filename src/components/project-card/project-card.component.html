@@ -14,7 +14,7 @@
         <span *ngFor="let discipline of projectCollection[currentIndex].disciplines">{{ discipline }}</span>
       </div>
         <p>{{ projectCollection[currentIndex].date }}</p>
-        <a [href]="projectCollection[currentIndex].link" target="_blank" class="project-link">View Project</a>
+        <a *ngIf="projectCollection[currentIndex]?.link?.trim()"  [href]="projectCollection[currentIndex].link" target="_blank" class="project-link">View Project</a>
       </div> 
     </div>
   </div>
