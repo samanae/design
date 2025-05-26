@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href '/design/' --output-hashing=all && npx angular-cli-ghpages --dir=dist/portfolio/browser"
+    "gh-build": "ng build --configuration production --base-href /design/ --output-hashing=all",
+    "gh-deploy": "npx angular-cli-ghpages --dir=dist/portfolio/browser"
   },
   "private": true,
   "dependencies": {
