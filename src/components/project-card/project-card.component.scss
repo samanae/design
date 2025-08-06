@@ -68,35 +68,48 @@ span {
     display: flex;
     flex-direction: column;
 }
+
+.title {
+    font-size: 1.25rem;
+}
+
 img {
     margin: -10dvh 0 10dvh 0;
     display: flex;
     position: relative;
     right: 0;
-    width: 60dvw;
+    width: 70dvw;
 }
 
 .description {
-    width: 70dvw;
+    max-height: 30dvh;
+    width: 80dvw;
+    overflow-x: scroll;
 }
 .project-card {
     position: relative;
     bottom: 0;
-    width: 70dvw;
+    width: 80dvw;
 }
 .information {
     display: flex;
     flex-direction: column;
-    gap: 0.5dvw;
 }
 .tags{
-    margin-top: 0;
-    width: unset;
-    max-width: 70dvw;
-    word-break: keep-all;
+    display: none;
+}
+span {
+    display: none;
 }
 .project-link {
-    padding: 0 0 0.1rem 0;
+    display: none;
+    position: relative;
+    bottom: 5dvh;
     text-align: right;
+        color:#5A42FF;
+
+}
+.project-link:visited {
+    color:#5A42FF;
 }
  }
