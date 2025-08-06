@@ -59,22 +59,34 @@ h1 {
 }
 
  @media only screen and (max-width: 700px) {
-h1 {
-    margin: 5dvh 0 5dvh 0;
+
+section {
+    padding-top: 1dvh;
+    max-width: 100dvw;
 }
-.project-title-list {
-  position: relative;
-  width: 15dvw;
-  padding: 0 0.6rem 0 0;
-  margin: 0 -1rem;
-  gap: 1.5rem; // Or stack vertically with `flex-direction: column`
-  right: 0;
-  text-align: right;
-  border-right: 1px solid rgb(62, 14, 194);
-  
-  li {
-    opacity: 0.2;
-    transition: opacity 0.3s ease, font-weight 0.3s ease;
+
+.content {
+    flex-direction: column;
+}
+
+  h1 {
+      margin: 5dvh 0 5dvh 0;
   }
-}
+  .project-title-list {
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    width: 80dvw;
+    padding: 0 0.6rem 0 0;
+    margin: 0 -1rem;
+    right: 0;
+    text-align: right;
+    border-right: 1px solid rgb(62, 14, 194);
+    overflow-x: scroll;
+    
+    li {
+      opacity: 0.2;
+      transition: opacity 0.3s ease, font-weight 0.3s ease;
+    }
+  }
  }

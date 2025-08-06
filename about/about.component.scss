@@ -64,9 +64,16 @@ a {
 
    @media only screen and (max-width: 700px) {
 
-.meta-container {
-    margin-left: 15vw;
-    width: 60vw;
-    color: white;
+    .meta-container {
+        margin-left: 5dvw;
+        width: 80dvw;
+        color: white;
+    }
+
+    a {
+    text-decoration: underline;
+}
+a:visited {
+    color: #5A42FF;
 }
  }
