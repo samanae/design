@@ -1,0 +1,41 @@
+@import '../../assets/fonts.scss';
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100dvh;
+    scroll-snap-type: y mandatory;
+}
+
+.meta-container {
+    margin-left: 15vw;
+    width: 50vw;
+    color: white;
+}
+
+h1 {
+    font-family: $title-font;
+    font-size: $title-size;
+    font-weight: 400;
+}
+h3 {
+    font-family: $tag-font;
+    font-size: $tag-size;
+    font-weight: 200;
+}
+
+.text {
+    font-family: $body-font;
+    font-weight: lighter;
+}
+
+#decor-line {
+    position: relative;
+    height: 1rem;
+    width: 20dvw;
+    right: -60dvw;
+    bottom: -10dvh;
+    border-bottom: 0.5rem solid #5A42FF;
+}

@@ -1,0 +1,72 @@
+@import '../../assets/fonts.scss';
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100dvh;
+    scroll-snap-type: y mandatory;
+}
+
+.meta-container {
+    margin-left: 15vw;
+    width: 50vw;
+    color: white;
+}
+
+h1 {
+    font-family: $title-font;
+    font-size: $title-size;
+    font-weight: 400;
+}
+h3 {
+    font-family: $tag-font;
+    font-size: $tag-size;
+    font-weight: 200;
+}
+
+.text {
+    font-family: $body-font;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    font-family: $body-font;
+    font-weight: lighter;
+    color: white;
+    a:hover {
+        border-bottom: 3px solid white
+    }
+    a:visited {
+        color: white;
+    }
+}
+
+.contact {
+    margin: 3rem 0 0 0;
+}
+
+.socials-icon {
+    color: white;
+    font-size: 40px; /* Initial size of the icon */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Add a smooth transition */
+    margin-right: 1em;
+    opacity: 0.3;
+  }
+
+  /* Hover styles */
+  .socials-icon:hover {
+    opacity: 1;
+    border-bottom: 3px solid #5A42FF;
+  }
+
+   @media only screen and (max-width: 700px) {
+
+.meta-container {
+    margin-left: 15vw;
+    width: 60vw;
+    color: white;
+}
+ }

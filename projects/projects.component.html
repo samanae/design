@@ -1,0 +1,28 @@
+<section id="projects">
+      <div class="meta-container">
+    <div class="title-section">
+        <h1>Projects</h1>
+    </div>
+    <div class="content">
+        <div class="left-container">
+              <app-project-card [currentIndex]="currentIndex"></app-project-card>
+        </div>
+        <div class="right-container">
+          <ul class="project-title-list">
+            <li
+              *ngFor="let project of projectCollection; let i = index"
+              (click)="goToProject(i)"
+              [class.active]="i === currentIndex"
+            >
+              {{ project.title }}
+            </li>
+          </ul>
+                <!-- <div class="controls">
+                  <button (click)="showPrevious()" [disabled]="currentIndex === 0">← Previous</button>
+                  <button (click)="showNext()" [disabled]="currentIndex === projectCollection.length - 1">Next →</button>
+                </div> -->
+        </div>
+    </div>
+  </div>
+</section>
+
