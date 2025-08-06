@@ -21,3 +21,14 @@ li:hover {
     border-bottom: 1px solid white;
     // background-color: rgba(96, 133, 255, 0.137);
 }
+
+@media only screen and (max-width: 700px) {
+
+    nav, li {
+    display: inline;
+}
+
+    li {
+        padding: 1rem 1rem;
+}
+ }
