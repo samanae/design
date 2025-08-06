@@ -7,3 +7,10 @@ $tag-font: 'Poppins', sans-serif;
 $tag-size: 1.5rem;
 
 $body-font: 'Poppins', sans-serif;
+
+@media only screen and (max-width: 700px) {
+
+$title-size: 1.5rem;
+
+$tag-size: 1rem;
+ }
