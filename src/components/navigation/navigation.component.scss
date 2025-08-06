@@ -1,0 +1,23 @@
+nav, a {
+    font-family: poppins;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    // background-color: rgba(96, 133, 255, 0.137);
+}
