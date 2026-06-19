@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { PROJECTS, ProjectsType } from '../../assets/data/projects';
+import { PROJECTS, ProjectsType } from '../src/assets/data/projects';
 import { CommonModule } from '@angular/common';
-import { ProjectCardComponent } from '../../components/project-card/project-card.component';
+import { ProjectCardComponent } from '../src/components/project-card/project-card.component';
 
 @Component({
   selector: 'app-projects',
